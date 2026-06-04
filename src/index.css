@@ -70,8 +70,8 @@ button {
 .btn-primary {
   @apply text-white dark:text-[#171717] bg-primary font-semibold font-mono;
   }
-  
-  .btn-secondary {
+
+.btn-secondary {
     @apply border border-line font-semibold
 }
 

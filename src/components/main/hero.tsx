@@ -33,17 +33,13 @@ export default function Hero() {
               Building the infrastructure layer for Africa's digital economy.
             </p>
           </div>
-          <div className="flex gap-4">
-            <Link to="/">
-              <button className="btn btn-primary p-2 px-3 text-sm min-h-11">
+          <div className="flex items-center gap-4">
+            <Link to="/" className="btn btn-primary px-4 py-2.5 border border-none text-sm">
                 Explore Products
-              </button>
             </Link>
-            <Link to="/">
-              <button className="btn btn-secondary bg-background p-2 px-3 min-h-11 text-sm">
+            <a href="#roadmap" className="btn btn-secondary px-4 py-2.5 text-sm backdrop-blur-sm bg-background/20">
                 View Roadmap
-              </button>
-            </Link>
+            </a>
           </div>
         </main>
       </div>

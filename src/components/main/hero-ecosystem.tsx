@@ -105,7 +105,7 @@ export default function HeroEcosystem() {
             </g>
           ))}
 
-          {ecosystemNodes.map((node) => (
+          {/* {ecosystemNodes.map((node) => (
             <circle
               key={`${node.id}-ring`}
               cx={node.x}
@@ -115,7 +115,7 @@ export default function HeroEcosystem() {
               strokeWidth="1"
               fill="color-mix(in srgb, var(--secondary) 80%, transparent)"
             />
-          ))}
+          ))} */}
 
           <circle
             cx={hub.x}
@@ -128,7 +128,7 @@ export default function HeroEcosystem() {
           />
         </svg>
 
-        <div className="absolute left-1/2 top-1/2 z-10 flex -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-1.5 border border-line bg-background px-4 py-3 shadow-sm">
+        <div className="absolute left-1/2 top-1/2 z-10 rounded-full h-26 w-26 flex -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-1.5 border border-line bg-secondary px-4 py-3">
           <img
             src="/logo.svg"
             alt=""
@@ -139,7 +139,7 @@ export default function HeroEcosystem() {
             alt=""
             className="h-8 w-8 object-contain dark:hidden"
           />
-          <span className="text-[11px] font-mono uppercase tracking-wider text-main">
+          <span className="text-[11px] text-center text-nowrap font-mono uppercase tracking-wider text-main">
             Quest Labs
           </span>
         </div>
@@ -153,7 +153,7 @@ export default function HeroEcosystem() {
               top: `${(node.y / 400) * 100}%`,
             }}
           >
-            <div className="flex h-11 w-11 items-center justify-center border border-line bg-background p-1.5">
+            <div className="flex h-14 w-14 items-center justify-center border border-line rounded-full bg-secondary p-3">
               <img
                 src={node.logo}
                 alt=""
