@@ -29,7 +29,7 @@ export default function Hero() {
             <HugeiconsIcon icon={ArrowRight02Icon} size={18} />
           </div>
           <div>
-            <p className="text-2xl sm:text-3xl md:text-5xl font-bold">
+            <p className="text-3xl sm:text-3xl md:text-5xl font-bold">
               Building the infrastructure layer for Africa's digital economy.
             </p>
           </div>
