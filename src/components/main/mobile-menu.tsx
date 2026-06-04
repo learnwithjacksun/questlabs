@@ -74,7 +74,7 @@ export default function MobileMenu({
           </button>
         </div>
 
-        <nav className="flex-1 overflow-y-auto px-3 py-4">
+        <nav className="flex-1 overflow-y-auto py-4">
           <ul className="space-y-1 font-mono">
             {navLinks.map((link) => {
               const active = activeSection === link.id;
