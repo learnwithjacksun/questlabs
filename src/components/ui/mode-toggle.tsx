@@ -1,18 +1,19 @@
 import { useTheme } from "@/hooks";
-import { Sun, Moon } from "lucide-react";
+import { Moon02Icon, Sun03Icon } from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
 
 export default function ModeToggle() {
   const { theme, toggleTheme } = useTheme();
 
   return (
     <button
-      className="text-main h-11 w-11 center rounded-full"
+     className="center"
       onClick={toggleTheme}
     >
       {theme === "dark" ? (
-        <Sun size={20} />
+        <HugeiconsIcon icon={Sun03Icon} size={18} />
       ) : (
-        <Moon size={20} />
+        <HugeiconsIcon icon={Moon02Icon} size={18} />
       )}
     </button>
   );

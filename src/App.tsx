@@ -1,7 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import { Toaster } from "sonner";
 import { ScrollToTop } from "@/components/ui";
-import { Home } from "@/pages";
+import { Home } from "@/pages/landing";
+import { MainLayout } from "./layouts";
 
 export default function App() {
   return (
@@ -9,7 +10,9 @@ export default function App() {
       <ScrollToTop />
       <Toaster position="top-center" richColors />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<MainLayout />} >
+        <Route index element={<Home />} />
+        </Route>
       </Routes>
     </>
   );

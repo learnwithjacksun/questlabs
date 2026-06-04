@@ -6,4 +6,7 @@ export {default as SelectWithoutIcon} from "./SelectWithoutIcon";
 export {default as ScrollToTop} from "./ScrollToTop";
 export {default as GobackButton} from "./GobackButton";
 export {default as Pattern} from "./pattern";
+export { default as Chamfer } from "./chamfer";
+export type { ChamferCorner, ChamferProps } from "./chamfer";
+export { getChamferClipPath, chamferSize } from "@/helpers/chamfer";
 

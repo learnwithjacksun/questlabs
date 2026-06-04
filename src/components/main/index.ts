@@ -1,0 +1,9 @@
+export { default as Hero } from "./hero";
+export { default as Header } from "./header";
+export { default as Footer } from "./footer";
+export { default as LeftSide } from "./left-side";
+export { default as RightSide } from "./right-side";
+export { default as Readme } from "./readme";
+export { default as Products } from "./products";
+export { default as Roadmap } from "./roadmap";
+export { default as Team } from "./team";
