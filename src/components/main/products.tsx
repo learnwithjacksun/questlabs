@@ -7,8 +7,8 @@ const products = [
     name: "QuestPay",
     subtitle: "Payments Infrastructure",
     description: "Modern payment infrastructure for businesses.",
-    logo: "https://questhq.vercel.app/logo.svg",
-    href: "https://questhq.vercel.app",
+    logo: "https://payments.questlabs.cc/logo.svg",
+    href: "https://payments.questlabs.cc",
   },
   {
     id: "questboost",
